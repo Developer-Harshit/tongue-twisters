@@ -12,7 +12,10 @@ netlify
 .env*.local
 
 # dependencies
-**/node_modules
+/node_modules
+/webscrape/node_modules
+/webscrape/mychrome
+
 
 # IDEs and editors
 /.idea
@@ -31,4 +34,4 @@ Thumbs.db
 
 # others
 pnpm-lock.yaml
-*/mychrome
+.vercel
